@@ -1,0 +1,326 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  nav{
+    background-image:linear-gradient(to right, #850238, #7c166b, #C70039);
+    margin: 0;
+    padding-bottom: 30px;
+    width:100%;
+    display:flex;
+    z-index: 1;
+    position: fixed;
+    box-shadow: 0px 0px 10px 5px rgba(176, 3, 192, 1);
+  }
+  main{
+    padding: 800px 500px;
+    margin: 0;
+    background-image: url("img/320344.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    color:white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  #video{
+    padding: 200px 300px;
+  }
+  #video2{
+    display:block;
+    width:600px;
+    height: 400px;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    box-shadow: 0px 0px 10px 5px rgba(176, 3, 192, 0.5);
+  }
+
+  #titulo{
+    background-color: transparent;
+    position: absolute;
+    border: 0;
+    padding: 80px 300px;
+    left: 10%;
+    top: 85%;
+}
+#title{
+    font-size: 25px;
+    display: block;
+    position:absolute;
+    left: 0%;
+    top: 0;
+    margin: 0;
+    font-weight: bold;
+}
+#zona{
+    display:block;
+    position:absolute;
+    left:3%;
+    width:50px;
+    bottom:30%;
+    border-radius: 50px;
+}
+#canal{
+    display:block;
+    position:absolute;
+    left:15%;
+    margin:0;
+    bottom:45%;
+    font-weight: bold;
+}
+#suscriptores{
+    display:block;
+    position:absolute;
+    left:15%;
+    margin:0;
+    bottom:32%;
+    color:rgb(80, 158, 231);
+    font-weight: bold;
+    font-size: smaller;
+}
+
+.like-buttons {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: rgba(176, 3, 192, 0.2);
+  }
+  
+  .like-button, .dislike-button {
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 0 10px;
+    color: black;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+  }
+  
+  .like-button:hover, .dislike-button:hover {
+    color: #67a4c5;
+  }
+  
+  .like-button i, .dislike-button i {
+    margin-right: 5px;
+  }
+  
+  
+
+#description{
+    background-color: rgba(176, 3, 192, 0.2);
+    padding: 80px 300px;
+    position: absolute;
+    top:105%;
+    left: 10%;
+    border-radius: 10px;
+}
+#views{
+    display:block;
+    position:absolute;
+    top:5%;
+    left:3%;
+    margin:0;
+    font-weight: bold;
+    
+}
+#descrip{
+    display:block;
+    position:absolute;
+    top:25%;
+    left:3%;
+    margin:0;
+    
+}
+a{
+  color:aqua;
+  text-decoration: none;
+}
+a:hover{
+  color:black;
+}
+#comments{
+    background-color: rgba(176, 3, 192, 0.2);
+    padding: 540px 300px;
+    position: absolute;
+    left: 10%;
+    top: 135%;
+    border-radius: 10px;
+}
+
+#side-bar{
+    background-color: rgba(176, 3, 192, 0.2);
+    padding: 900px 200px;
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgb(70, 0, 77);
+}
+.videos{
+  margin:0;
+  padding:0;
+  display:block;
+  z-index:0;
+}
+.image-container {
+    position:absolute;
+    top:1%;
+    left:3%;
+  }
+  #image1{
+    top:7%;
+  }
+  #image2{
+    top:13%;
+  }
+  #image3{
+    top:19%;
+  }
+  #image4{
+    top:25%;
+  }
+  #image5{
+    top:31%;
+  }
+  #image6{
+    top:37%;
+  }
+  #image7{
+    top:43%;
+  }
+  #image8{
+    top:49%;
+  }
+  #image9{
+    top:55%;
+  }
+  #image10{
+    top:61%;
+  }
+  #image11{
+    top:67%;
+  }
+  #image12{
+    top:73%;
+  }
+  #image13{
+    top:79%;
+  }
+  #image14{
+    top:85%;
+  }
+  #image15{
+    top:91%;
+  }
+.image-container img{
+    width:150px;
+    border-radius: 10px;
+    height:100px;
+}
+  .thumbnail {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s ease;
+  }
+  
+  .image-container:hover .thumbnail {
+    height: 100%;
+  }
+  
+  .thumbnail img {
+    width: 100%;
+  }
+
+  .miniaturas{
+    position:absolute;
+    top:0%;
+    left:43%;
+  }
+  #mini1{
+    top:6%;
+  }
+  #mini2{
+    top:12%;
+  }
+  #mini3{
+    top:18%;
+  }
+  #mini4{
+    top:24%;
+  }
+  #mini5{
+    top: 30%;
+  }
+  #mini6{
+    top:36%;
+  }
+  #mini7{
+    top:42%;
+  }
+  #mini8{
+    top:48%;
+  }
+  #mini9{
+    top:54%;
+  }
+  #mini10{
+    top:60%;
+  }
+  #mini11{
+    top:66%;
+  }
+  #mini12{
+    top:72%;
+  }
+  #mini13{
+    top:78%;
+  }
+  #mini14{
+    top:84%;
+  }
+  #mini15{
+    top:90%;
+  }
+.canales{
+    margin-top:10px;
+    margin-bottom:0px;
+    font-size:smaller;
+}
+.titulos{
+    margin-bottom:0;
+    font-weight: bold;
+}
+.views{
+    font-size:smaller;
+    margin:0;
+}
+
+#logotype{
+    display: block;
+    position: absolute;
+    width: 125px;
+    bottom: 0%;
+    top:0%;
+    left:15%;
+}
+
+#search{
+    position: absolute;
+    left: 35%;
+    top: 30%;
+    width: 350px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: #000000;
+    
+}
