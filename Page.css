@@ -152,6 +152,31 @@ a:hover{
     top: 135%;
     border-radius: 10px;
 }
+#comments form{
+  position: absolute;
+  top: 2%;
+  left: 5%;
+}
+
+#comments label{
+  font-weight: bold;
+}
+
+textarea{
+  border-radius: 10px;
+  background-color: rgba(176, 3, 192, 0.2);
+  color: white;
+  border-color: #7c166b;
+  padding: 10px;
+}
+
+input{
+  background-color: rgba(176, 3, 192, 0.1);
+  color:white;
+  border-radius: 10px 0px;
+  position: absolute;
+  left: 90%;
+}
 
 #side-bar{
     background-color: rgba(176, 3, 192, 0.2);
@@ -322,5 +347,5 @@ a:hover{
     height: 40px;
     border-radius: 20px;
     border-color: #000000;
-    
+    padding: 10px;
 }
