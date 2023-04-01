@@ -6,7 +6,7 @@ body {
   nav{
     background-image:linear-gradient(to right, #850238, #7c166b, #C70039);
     margin: 0;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     width:100%;
     display:flex;
     z-index: 1;
@@ -162,12 +162,14 @@ a:hover{
   font-weight: bold;
 }
 
-textarea{
-  border-radius: 10px;
-  background-color: rgba(176, 3, 192, 0.2);
-  color: white;
-  border-color: #7c166b;
-  padding: 10px;
+#comment{
+  
+  overflow: auto;
+  overflow-wrap: break-word;
+  max-height: 350px;
+  max-width: 550px;
+  width: 550px;
+  
 }
 
 input{
@@ -248,73 +250,74 @@ input{
     border-radius: 10px;
     height:100px;
 }
-  .thumbnail {
-    position: absolute;
+.thumbnail-cont{
+  position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
     height: 0;
     overflow: hidden;
-    transition: height 0.5s ease;
-  }
+    top:0;
+}
+.image-container:hover .thumbnail-cont {
+  height: 100%;
+  transition: height 0.5s ease;
+}
   
-  .image-container:hover .thumbnail {
-    height: 100%;
-  }
   
-  .thumbnail img {
+  .thumbnail-cont img {
     width: 100%;
   }
 
   .miniaturas{
     position:absolute;
-    top:0%;
+    top:1%;
     left:43%;
   }
   #mini1{
-    top:6%;
+    top:7%;
   }
   #mini2{
-    top:12%;
+    top:13%;
   }
   #mini3{
-    top:18%;
+    top:19%;
   }
   #mini4{
-    top:24%;
+    top:25%;
   }
   #mini5{
-    top: 30%;
+    top: 31%;
   }
   #mini6{
-    top:36%;
+    top:37%;
   }
   #mini7{
-    top:42%;
+    top:43%;
   }
   #mini8{
-    top:48%;
+    top:49%;
   }
   #mini9{
-    top:54%;
+    top:55%;
   }
   #mini10{
-    top:60%;
+    top:61%;
   }
   #mini11{
-    top:66%;
+    top:67%;
   }
   #mini12{
-    top:72%;
+    top:73%;
   }
   #mini13{
-    top:78%;
+    top:79%;
   }
   #mini14{
-    top:84%;
+    top:85%;
   }
   #mini15{
-    top:90%;
+    top:91%;
   }
 .canales{
     margin-top:10px;

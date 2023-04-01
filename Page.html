@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="Page.css" >
     <title>Youtube's Video Web Page</title>
     <link rel="icon" href="https://www.youtube.com/favicon.ico" type="image/png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
 </head>
 <body>
     <header>
@@ -47,16 +48,19 @@
     <div id="comments">
       <form action="">
         <label for="comment">Ingrese su comentario: </label><br>
-        <textarea name="comment" id="comment" cols="70" rows="10" placeholder="El video estuvo increíble..."></textarea><br>
-        <input type="submit" value="Enviar">
+        <div class="textarea" id="comment" tabindex="0" role="textbox" aria-multiline="true" contenteditable="PLAINTEXT-ONLY" data-role="editable" aria-label="Ingresa un comentario...">
+          
+          
+        </div>
+        <input class="btn" type="submit" value="Enviar">
       </form>
     </div>
     <div id="side-bar">
         <div class="videos">
         <div class="image-container">
             <img src="img/5cmxs(2).jpg" alt="Descripción de la imagen">
-            <div class="thumbnail">
-              <img src="img/320344.png" alt="Descripción del thumbnail">
+            <div class="thumbnail-cont">
+              <img src="img/320344.png" alt="Descripción del thumbnail-cont">
             </div>
           </div>
           <div class="miniaturas">
@@ -69,8 +73,8 @@
         <div class="videos">
           <div class="image-container" id="image1">
               <img src="img/320344.png" alt="Descripción de la imagen">
-              <div class="thumbnail">
-                <img src="img/5cmxs(2).jpg" alt="Descripción del thumbnail">
+              <div class="thumbnail-cont">
+                <img src="img/5cmxs(2).jpg" alt="Descripción del thumbnail-cont">
               </div>
             </div>
             <div class="miniaturas" id="mini1">
@@ -83,8 +87,8 @@
           <div class="videos">
             <div class="image-container" id="image2">
                 <img src="img/28-29.jpg" alt="Descripción de la imagen">
-                <div class="thumbnail">
-                  <img src="img/41278.jpg" alt="Descripción del thumbnail">
+                <div class="thumbnail-cont">
+                  <img src="img/41278.jpg" alt="Descripción del thumbnail-cont">
                 </div>
               </div>
               <div class="miniaturas" id="mini2">
@@ -97,8 +101,8 @@
             <div class="videos">
               <div class="image-container" id="image3">
                   <img src="img/41278.jpg" alt="Descripción de la imagen">
-                  <div class="thumbnail">
-                    <img src="img/392429.jpg" alt="Descripción del thumbnail">
+                  <div class="thumbnail-cont">
+                    <img src="img/392429.jpg" alt="Descripción del thumbnail-cont">
                   </div>
                 </div>
                 <div class="miniaturas" id="mini3">
@@ -111,8 +115,8 @@
               <div class="videos">
                 <div class="image-container" id="image4">
                     <img src="img/392429.jpg" alt="Descripción de la imagen">
-                    <div class="thumbnail">
-                      <img src="img/514126.jpg" alt="Descripción del thumbnail">
+                    <div class="thumbnail-cont">
+                      <img src="img/514126.jpg" alt="Descripción del thumbnail-cont">
                     </div>
                   </div>
                   <div class="miniaturas" id="mini4">
@@ -125,8 +129,8 @@
                 <div class="videos">
                   <div class="image-container" id="image5">
                       <img src="img/514126.jpg" alt="Descripción de la imagen">
-                      <div class="thumbnail">
-                        <img src="img/665608.jpg" alt="Descripción del thumbnail">
+                      <div class="thumbnail-cont">
+                        <img src="img/665608.jpg" alt="Descripción del thumbnail-cont">
                       </div>
                     </div>
                     <div class="miniaturas" id="mini5">
@@ -139,8 +143,8 @@
                   <div class="videos">
                     <div class="image-container" id="image6">
                         <img src="img/665608.jpg" alt="Descripción de la imagen">
-                        <div class="thumbnail">
-                          <img src="img/704387.png" alt="Descripción del thumbnail">
+                        <div class="thumbnail-cont">
+                          <img src="img/704387.png" alt="Descripción del thumbnail-cont">
                         </div>
                       </div>
                       <div class="miniaturas" id="mini6">
@@ -153,8 +157,8 @@
                     <div class="videos">
                       <div class="image-container" id="image7">
                           <img src="img/704387.png" alt="Descripción de la imagen">
-                          <div class="thumbnail">
-                            <img src="img/750451.png" alt="Descripción del thumbnail">
+                          <div class="thumbnail-cont">
+                            <img src="img/750451.png" alt="Descripción del thumbnail-cont">
                           </div>
                         </div>
                         <div class="miniaturas" id="mini7">
@@ -167,8 +171,8 @@
                       <div class="videos">
                         <div class="image-container" id="image8">
                             <img src="img/750451.png" alt="Descripción de la imagen">
-                            <div class="thumbnail">
-                              <img src="img/1006398.jpg" alt="Descripción del thumbnail">
+                            <div class="thumbnail-cont">
+                              <img src="img/1006398.jpg" alt="Descripción del thumbnail-cont">
                             </div>
                           </div>
                           <div class="miniaturas" id="mini8">
@@ -181,8 +185,8 @@
                         <div class="videos">
                           <div class="image-container" id="image9">
                               <img src="img/1006398.jpg" alt="Descripción de la imagen">
-                              <div class="thumbnail">
-                                <img src="img/1153091.jpg" alt="Descripción del thumbnail">
+                              <div class="thumbnail-cont">
+                                <img src="img/1153091.jpg" alt="Descripción del thumbnail-cont">
                               </div>
                             </div>
                             <div class="miniaturas" id="mini9">
@@ -195,8 +199,8 @@
                           <div class="videos">
                             <div class="image-container" id="image10">
                                 <img src="img/1153091.jpg" alt="Descripción de la imagen">
-                                <div class="thumbnail">
-                                  <img src="img/316161387_451774023780806_3911324339506935250_n.jpg" alt="Descripción del thumbnail">
+                                <div class="thumbnail-cont">
+                                  <img src="img/316161387_451774023780806_3911324339506935250_n.jpg" alt="Descripción del thumbnail-cont">
                                 </div>
                               </div>
                               <div class="miniaturas" id="mini10">
@@ -208,8 +212,8 @@
             <div class="videos">
           <div class="image-container" id="image11">
               <img src="img/316161387_451774023780806_3911324339506935250_n.jpg" alt="Descripción de la imagen">
-              <div class="thumbnail">
-                <img src="img/bocchi-the-rock.png" alt="Descripción del thumbnail">
+              <div class="thumbnail-cont">
+                <img src="img/bocchi-the-rock.png" alt="Descripción del thumbnail-cont">
               </div>
             </div>
             <div class="miniaturas" id="mini11">
@@ -222,8 +226,8 @@
           <div class="videos">
           <div class="image-container" id="image12">
             <img src="img/bocchi-the-rock.png" alt="Descripción de la imagen">
-            <div class="thumbnail">
-              <img src="img/FB_IMG_1673573032327.jpg" alt="Descripción del thumbnail">
+            <div class="thumbnail-cont">
+              <img src="img/FB_IMG_1673573032327.jpg" alt="Descripción del thumbnail-cont">
             </div>
           </div>
           <div class="miniaturas" id="mini12">
@@ -236,8 +240,8 @@
         <div class="videos">
         <div class="image-container" id="image13">
           <img src="img/FB_IMG_1673573032327.jpg" alt="Descripción de la imagen">
-          <div class="thumbnail">
-            <img src="img/FdwFnGOWQAIGmQP.jpg" alt="Descripción del thumbnail">
+          <div class="thumbnail-cont">
+            <img src="img/FdwFnGOWQAIGmQP.jpg" alt="Descripción del thumbnail-cont">
           </div>
         </div>
         <div class="miniaturas" id="mini13">
@@ -250,8 +254,8 @@
       <div class="videos">
         <div class="image-container" id="image14">
           <img src="img/FdwFnGOWQAIGmQP.jpg" alt="Descripción de la imagen">
-          <div class="thumbnail">
-            <img src="img/FWDg8tOXoAAYnyC.jpg" alt="Descripción del thumbnail">
+          <div class="thumbnail-cont">
+            <img src="img/FWDg8tOXoAAYnyC.jpg" alt="Descripción del thumbnail-cont">
           </div>
         </div>
         <div class="miniaturas" id="mini14">
@@ -264,8 +268,8 @@
       <div class="videos">
         <div class="image-container" id="image15">
           <img src="img/FWDg8tOXoAAYnyC.jpg" alt="Descripción de la imagen">
-          <div class="thumbnail">
-            <img src="img/Sakura.png" alt="Descripción del thumbnail">
+          <div class="thumbnail-cont">
+            <img src="img/Sakura.png" alt="Descripción del thumbnail-cont">
           </div>
         </div>
         <div class="miniaturas" id="mini15">
