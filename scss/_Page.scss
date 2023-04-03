@@ -1,0 +1,11 @@
+$top: 7%;
+@for $i from 1 through 15{
+    #mini#{$i}{
+        top: $top;
+    }
+    #image#{$i}{
+        top: $top;
+    }
+    $top: $top + 6%;
+}
+

@@ -200,51 +200,7 @@ input{
     top:1%;
     left:3%;
   }
-  #image1{
-    top:7%;
-  }
-  #image2{
-    top:13%;
-  }
-  #image3{
-    top:19%;
-  }
-  #image4{
-    top:25%;
-  }
-  #image5{
-    top:31%;
-  }
-  #image6{
-    top:37%;
-  }
-  #image7{
-    top:43%;
-  }
-  #image8{
-    top:49%;
-  }
-  #image9{
-    top:55%;
-  }
-  #image10{
-    top:61%;
-  }
-  #image11{
-    top:67%;
-  }
-  #image12{
-    top:73%;
-  }
-  #image13{
-    top:79%;
-  }
-  #image14{
-    top:85%;
-  }
-  #image15{
-    top:91%;
-  }
+ 
 .image-container img{
     width:150px;
     border-radius: 10px;
@@ -274,51 +230,7 @@ input{
     top:1%;
     left:43%;
   }
-  #mini1{
-    top:7%;
-  }
-  #mini2{
-    top:13%;
-  }
-  #mini3{
-    top:19%;
-  }
-  #mini4{
-    top:25%;
-  }
-  #mini5{
-    top: 31%;
-  }
-  #mini6{
-    top:37%;
-  }
-  #mini7{
-    top:43%;
-  }
-  #mini8{
-    top:49%;
-  }
-  #mini9{
-    top:55%;
-  }
-  #mini10{
-    top:61%;
-  }
-  #mini11{
-    top:67%;
-  }
-  #mini12{
-    top:73%;
-  }
-  #mini13{
-    top:79%;
-  }
-  #mini14{
-    top:85%;
-  }
-  #mini15{
-    top:91%;
-  }
+  
 .canales{
     margin-top:10px;
     margin-bottom:0px;
