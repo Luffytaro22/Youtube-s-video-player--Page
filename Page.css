@@ -175,27 +175,27 @@ input{
 .image-container {
     width: 150px;
     height: 100px; 
+   
   }
  
 .image-container img{
     border-radius: 10px;
     width: 150px;
-    height: 100px;  
-}
-.thumbnail-cont{
-  height: 0;
-   overflow: hidden; 
-}
-.image-container:hover .thumbnail-cont {
-  
+    height: 100px; 
+     
 }
 
-  .thumbnail-cont img {   
-    width: 100%;
+.thumbnail-cont img{ 
+  display: none;
+}
+.image-container:hover img{
+  display: none;
+}
+.image-container:hover .thumbnail-cont img{
+  display:flex;
+  transform: scale(1.1);
+}
  
-  }
-
-  
 .canales{
     margin-bottom:0px;
     font-size:smaller;
@@ -217,7 +217,7 @@ input{
     width: 350px;
     height: 35px;
     border-radius: 20px;
-    border-color: #000000;
+    border: 2px solid black;
     color: white;
     padding-left: 10px;
 }
