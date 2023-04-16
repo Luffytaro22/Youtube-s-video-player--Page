@@ -11,14 +11,23 @@ body {
     background-image:linear-gradient(to right, #850238, #7c166b, #C70039);
     margin: 0;
     width:100%;
+    height: 10%;
     display:flex;
     position: fixed;
     box-shadow: 0px 0px 10px 5px rgba(176, 3, 192, 1);
     top: 0;
+    justify-content: center;
   }
+  ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  
   main{
     margin: 0;
-    padding-top: 130px;
+    padding-top: 120px;
     background-image: url("img/320344.png");
     background-repeat: no-repeat;
     background-size:cover;
@@ -28,58 +37,41 @@ body {
 
   .container{
     display:flex;
-    gap: 100px;
-    justify-content: center;
+    justify-content:space-around;
   }
   .sub-container1{
     display:flex;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
     gap: 10px;
   }
   
   #video2{
-  
     box-shadow: 0px 0px 10px 5px rgba(176, 3, 192, 0.5);
   }
 
   #titulo{
     display: flex;
     background-color: transparent;
-    gap: 20px;
-    
-    
+    gap: 20px;   
 }
 #title{
     font-size: 25px;
-    
-    
-    
     margin: 0;
     font-weight: bold;
 }
 #zona{
-    
-    
-    
     width:50px;
     bottom:30%;
     border-radius: 50px;
 }
 #canal{
-    
-    
-    
     margin:0;
     bottom:45%;
     font-weight: bold;
 }
 #suscriptores{
-    
-    
-    
     margin:0;
-    
     color:rgb(80, 158, 231);
     font-weight: bold;
     font-size: smaller;
@@ -87,25 +79,32 @@ body {
 
 .like-buttons {
     display: flex;
-    justify-content:center;
+    justify-content:end;
     border: 2px solid black;
     border-radius: 50px;
     background-color: rgba(176, 3, 192, 0.2);
+    height: 30px;
   }
   
   .like-button, .dislike-button {
-    display: inline-block;
     border: none;
     background-color: transparent;
     cursor: pointer;
-    margin: 0 10px;
     color: black;
-    font-size: 18px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: bold;
-    
   }
-  
+  .like-button{
+    margin-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #000000;
+  }
+  .dislike-button{
+    border-left: 1px solid black;
+    margin-right: 10px;
+    padding-left: 10px;
+  }
   .like-button:hover, .dislike-button:hover {
     color: #67a4c5;
   }
@@ -113,8 +112,6 @@ body {
   .like-button i, .dislike-button i {
     margin-right: 5px;
   }
-  
-  
 
 #description{
     background-color: rgba(176, 3, 192, 0.2);
@@ -122,19 +119,11 @@ body {
     border-radius: 10px;
 }
 #views{
-    
-    
-    
     margin:0;
     font-weight: bold;
-    
 }
 #descrip{
-    
-    
-    
-    margin:0;
-    
+    margin:0;   
 }
 a{
   color:aqua;
@@ -145,14 +134,8 @@ a:hover{
 }
 #comments{
     background-color: rgba(176, 3, 192, 0.2);
-    padding: 540px 300px;
-    
-    
+    padding-bottom: 1000px;
     border-radius: 10px;
-}
-#comments form{
-  
-  
 }
 
 #comments label{
@@ -165,66 +148,55 @@ a:hover{
   overflow-wrap: break-word;
   max-height: 350px;
   max-width: 550px;
-  width: 550px;
-  
+  width: 550px;  
 }
 
 input{
   background-color: rgba(176, 3, 192, 0.1);
   color:white;
-  border-radius: 10px 0px;
-  
-  
+  border-radius: 10px 0px; 
 }
 
 #side-bar{
     background-color: rgba(176, 3, 192, 0.2);
-    
     border-radius: 10px;
     box-shadow: 0 0 10px 5px rgb(70, 0, 77);
+    width: 30%;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .videos{
   margin:0;
   padding:0;
-  
-  z-index:0;
+  display:flex;
+  gap: 15px;
 }
 .image-container {
-    
-    
+    width: 150px;
+    height: 100px; 
   }
  
 .image-container img{
-    width:150px;
     border-radius: 10px;
-    height:100px;
+    width: 150px;
+    height: 100px;  
 }
 .thumbnail-cont{
-  
-    
-    
-    width: 100%;
-    height: 0;
-    overflow: hidden;
-    
+  height: 0;
+   overflow: hidden; 
 }
 .image-container:hover .thumbnail-cont {
-  height: 100%;
-  transition: height 0.5s ease;
+  
 }
-  
-  
-  .thumbnail-cont img {
+
+  .thumbnail-cont img {   
     width: 100%;
+ 
   }
 
-  .miniaturas{
-    
-    
-  }
   
 .canales{
-    margin-top:10px;
     margin-bottom:0px;
     font-size:smaller;
 }
@@ -238,18 +210,14 @@ input{
 }
 
 #logotype{
-    
-    
     width: 125px;
-    
 }
 
 #search{
-    
-    
     width: 350px;
-    height: 40px;
+    height: 35px;
     border-radius: 20px;
     border-color: #000000;
-    
+    color: white;
+    padding-left: 10px;
 }
