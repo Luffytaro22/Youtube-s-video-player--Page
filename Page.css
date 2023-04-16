@@ -17,6 +17,7 @@ body {
     box-shadow: 0px 0px 10px 5px rgba(176, 3, 192, 1);
     top: 0;
     justify-content: center;
+    z-index: 1;
   }
   ul{
     display:flex;
@@ -194,6 +195,7 @@ input{
 .image-container:hover .thumbnail-cont img{
   display:flex;
   transform: scale(1.1);
+  cursor: pointer;
 }
  
 .canales{
