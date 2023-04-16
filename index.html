@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Page.css" >
-    <link rel="stylesheet" href="./css/Page2.css">
+    
     <title>Youtube's Video Web Page</title>
     <link rel="icon" href="https://www.youtube.com/favicon.ico" type="image/png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
@@ -21,14 +21,18 @@
         </nav>
     </header>
     <main>
+  <div class="container">
+    <div class="sub-container1">
     <div id="video">
         <iframe id="video2" width="560" height="315" src="https://www.youtube.com/embed/oZ770zxJpvw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
+    <p id="title">Niña pagando | La Historia Detrás Del Meme</p>
     <div id="titulo">
-        <p id="title">Niña pagando | La Historia Detrás Del Meme</p>
         <img id="zona" src="https://yt3.googleusercontent.com/6ruWrM_TWQzR6kRXlo-9MQuk1ogy1ubA1qMHEPAr3eOnXvkFNeaREZz1M_SY0Z3T9Wzq_z4G=s176-c-k-c0x00ffffff-no-rj" alt="">
-        <p id="canal">Zona 24-7</p>
-        <p id="suscriptores">600k de suscriptores</p>
+        <div class="canal">
+          <p id="canal">Zona 24-7</p>
+          <p id="suscriptores">600k de suscriptores</p>
+        </div>
         <div class="like-buttons">
             <button class="like-button">
               <i class="fa fa-thumbs-up"></i> Like
@@ -55,6 +59,7 @@
         </div>
         <input class="btn" type="submit" value="Enviar">
       </form>
+    </div>
     </div>
     <div id="side-bar">
         <div class="videos">
@@ -281,6 +286,7 @@
       </div>
 
     </div>
+  </div>
     </main>
 </body>
 </html>
